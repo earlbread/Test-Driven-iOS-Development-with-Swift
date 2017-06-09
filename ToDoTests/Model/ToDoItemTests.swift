@@ -22,7 +22,7 @@ class ToDoItemTests: XCTestCase {
     }
 
     func testInit_ShouldTakeTitle() {
-        ToDoItem(title: "Test title")
+        _ = ToDoItem(title: "Test title")
     }
     
 }
