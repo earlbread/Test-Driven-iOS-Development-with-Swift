@@ -44,7 +44,7 @@ class ItemManagerTests: XCTestCase {
 
         let returnedItem = itemManager.itemAtIndex(0)
 
-        XCTAssertEqual(item.title, returnedItem.title, "Should be the same item")
+        XCTAssertEqual(item, returnedItem, "Should be the same item")
     }
 
     func testCheckingItem_ChangesCountOfToDoAndOfDoneItems() {
@@ -64,7 +64,7 @@ class ItemManagerTests: XCTestCase {
 
         itemManager.checkItemAtIndex(0)
 
-        XCTAssertEqual(itemManager.itemAtIndex(0).title, secondItem.title)
+        XCTAssertEqual(itemManager.itemAtIndex(0), secondItem)
     }
 
     func testDoneItemAtIndex_ShouldReturnPreviouslyCheckedItem() {
@@ -75,7 +75,7 @@ class ItemManagerTests: XCTestCase {
 
         let returnedItem = itemManager.doneItemAtIndex(0)
 
-        XCTAssertEqual(returnedItem.title, item.title, "Should be the same item")
+        XCTAssertEqual(returnedItem, item, "Should be the same item")
     }
     
 }
