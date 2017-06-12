@@ -91,5 +91,12 @@ class ItemManagerTests: XCTestCase {
         XCTAssertEqual(itemManager.toDoCount, 0, "toDoCount should be 0")
         XCTAssertEqual(itemManager.doneCount, 0, "doneCount should be 0")
     }
+
+    func testAddingSameItem_DoesNotIncreaseCount() {
+        itemManager.addItem(ToDoItem(title: "Item"))
+        itemManager.addItem(ToDoItem(title: "Item"))
+
+        XCTAssertEqual(itemManager.toDoCount, 1)
+    }
     
 }
