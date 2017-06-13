@@ -66,6 +66,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		606D2EC31EF03220005DFB2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60B49C3D1EED285600CD85D8 /* ItemManager.swift */,
+				60B49C351EEA9C8100CD85D8 /* ToDoItem.swift */,
+				60B49C371EEBE18800CD85D8 /* Location.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		606D2EC41EF03228005DFB2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60B49C3B1EED241900CD85D8 /* ItemManagerTests.swift */,
+				60B49C391EEBE7EE00CD85D8 /* LocationTests.swift */,
+				60B49C311EEA9AE500CD85D8 /* ToDoItemTests.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		60B49C051EEA974F00CD85D8 = {
 			isa = PBXGroup;
 			children = (
@@ -87,15 +107,13 @@
 		60B49C101EEA974F00CD85D8 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
-				60B49C3D1EED285600CD85D8 /* ItemManager.swift */,
+				606D2EC31EF03220005DFB2E /* Model */,
 				60B49C111EEA974F00CD85D8 /* AppDelegate.swift */,
 				60B49C131EEA974F00CD85D8 /* ViewController.swift */,
 				60B49C151EEA974F00CD85D8 /* Main.storyboard */,
 				60B49C181EEA974F00CD85D8 /* Assets.xcassets */,
 				60B49C1A1EEA974F00CD85D8 /* LaunchScreen.storyboard */,
 				60B49C1D1EEA974F00CD85D8 /* Info.plist */,
-				60B49C351EEA9C8100CD85D8 /* ToDoItem.swift */,
-				60B49C371EEBE18800CD85D8 /* Location.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -103,10 +121,8 @@
 		60B49C251EEA974F00CD85D8 /* ToDoTests */ = {
 			isa = PBXGroup;
 			children = (
-				60B49C3B1EED241900CD85D8 /* ItemManagerTests.swift */,
-				60B49C391EEBE7EE00CD85D8 /* LocationTests.swift */,
+				606D2EC41EF03228005DFB2E /* Model */,
 				60B49C281EEA974F00CD85D8 /* Info.plist */,
-				60B49C311EEA9AE500CD85D8 /* ToDoItemTests.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -428,6 +444,7 @@
 				60B49C2D1EEA974F00CD85D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60B49C2E1EEA974F00CD85D8 /* Build configuration list for PBXNativeTarget "ToDoTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +453,7 @@
 				60B49C301EEA974F00CD85D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
