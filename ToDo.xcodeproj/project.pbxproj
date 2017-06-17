@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6009C5741EF4F95E00E4F2C3 /* ItemCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6009C5731EF4F95E00E4F2C3 /* ItemCellTests.swift */; };
 		603EA2F31EF0FC3A00D9D241 /* ItemListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EA2F21EF0FC3A00D9D241 /* ItemListDataProvider.swift */; };
 		603EA2F51EF1061E00D9D241 /* ItemListDataProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EA2F41EF1061E00D9D241 /* ItemListDataProviderTests.swift */; };
 		603EA2F71EF112E700D9D241 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EA2F61EF112E700D9D241 /* ItemCell.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6009C5731EF4F95E00E4F2C3 /* ItemCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCellTests.swift; path = Controller/ItemCellTests.swift; sourceTree = "<group>"; };
 		603EA2F21EF0FC3A00D9D241 /* ItemListDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemListDataProvider.swift; path = Controller/ItemListDataProvider.swift; sourceTree = "<group>"; };
 		603EA2F41EF1061E00D9D241 /* ItemListDataProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemListDataProviderTests.swift; path = Controller/ItemListDataProviderTests.swift; sourceTree = "<group>"; };
 		603EA2F61EF112E700D9D241 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCell.swift; path = Controller/ItemCell.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				60B49C281EEA974F00CD85D8 /* Info.plist */,
 				606D2EC51EF03301005DFB2E /* ItemListViewControllerTests.swift */,
 				603EA2F41EF1061E00D9D241 /* ItemListDataProviderTests.swift */,
+				6009C5731EF4F95E00E4F2C3 /* ItemCellTests.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6009C5741EF4F95E00E4F2C3 /* ItemCellTests.swift in Sources */,
 				603EA2F51EF1061E00D9D241 /* ItemListDataProviderTests.swift in Sources */,
 				60B49C3C1EED241900CD85D8 /* ItemManagerTests.swift in Sources */,
 				60B49C3A1EEBE7EE00CD85D8 /* LocationTests.swift in Sources */,
