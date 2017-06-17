@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6009C5741EF4F95E00E4F2C3 /* ItemCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6009C5731EF4F95E00E4F2C3 /* ItemCellTests.swift */; };
+		6009C5761EF52F4600E4F2C3 /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6009C5751EF52F4600E4F2C3 /* DetailViewControllerTests.swift */; };
 		603EA2F31EF0FC3A00D9D241 /* ItemListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EA2F21EF0FC3A00D9D241 /* ItemListDataProvider.swift */; };
 		603EA2F51EF1061E00D9D241 /* ItemListDataProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EA2F41EF1061E00D9D241 /* ItemListDataProviderTests.swift */; };
 		603EA2F71EF112E700D9D241 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EA2F61EF112E700D9D241 /* ItemCell.swift */; };
+		6064B5371EF5470900D296D7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6064B5361EF5470900D296D7 /* DetailViewController.swift */; };
+		6064B53A1EF54AE100D296D7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6064B5391EF54AE100D296D7 /* MapKit.framework */; };
 		606D2EC61EF03301005DFB2E /* ItemListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606D2EC51EF03301005DFB2E /* ItemListViewControllerTests.swift */; };
 		606D2ECA1EF033F9005DFB2E /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606D2EC91EF033F9005DFB2E /* ItemListViewController.swift */; };
 		60B49C121EEA974F00CD85D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B49C111EEA974F00CD85D8 /* AppDelegate.swift */; };
@@ -37,9 +40,12 @@
 
 /* Begin PBXFileReference section */
 		6009C5731EF4F95E00E4F2C3 /* ItemCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCellTests.swift; path = Controller/ItemCellTests.swift; sourceTree = "<group>"; };
+		6009C5751EF52F4600E4F2C3 /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewControllerTests.swift; path = Controller/DetailViewControllerTests.swift; sourceTree = "<group>"; };
 		603EA2F21EF0FC3A00D9D241 /* ItemListDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemListDataProvider.swift; path = Controller/ItemListDataProvider.swift; sourceTree = "<group>"; };
 		603EA2F41EF1061E00D9D241 /* ItemListDataProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemListDataProviderTests.swift; path = Controller/ItemListDataProviderTests.swift; sourceTree = "<group>"; };
 		603EA2F61EF112E700D9D241 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCell.swift; path = Controller/ItemCell.swift; sourceTree = "<group>"; };
+		6064B5361EF5470900D296D7 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Controller/DetailViewController.swift; sourceTree = "<group>"; };
+		6064B5391EF54AE100D296D7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		606D2EC51EF03301005DFB2E /* ItemListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemListViewControllerTests.swift; path = Controller/ItemListViewControllerTests.swift; sourceTree = "<group>"; };
 		606D2EC91EF033F9005DFB2E /* ItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemListViewController.swift; path = Controller/ItemListViewController.swift; sourceTree = "<group>"; };
 		60B49C0E1EEA974F00CD85D8 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6064B53A1EF54AE100D296D7 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6064B5381EF54AE100D296D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6064B5391EF54AE100D296D7 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		606D2EC31EF03220005DFB2E /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +117,7 @@
 				60B49C101EEA974F00CD85D8 /* ToDo */,
 				60B49C251EEA974F00CD85D8 /* ToDoTests */,
 				60B49C0F1EEA974F00CD85D8 /* Products */,
+				6064B5381EF54AE100D296D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +142,7 @@
 				606D2EC91EF033F9005DFB2E /* ItemListViewController.swift */,
 				603EA2F21EF0FC3A00D9D241 /* ItemListDataProvider.swift */,
 				603EA2F61EF112E700D9D241 /* ItemCell.swift */,
+				6064B5361EF5470900D296D7 /* DetailViewController.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -138,6 +155,7 @@
 				606D2EC51EF03301005DFB2E /* ItemListViewControllerTests.swift */,
 				603EA2F41EF1061E00D9D241 /* ItemListDataProviderTests.swift */,
 				6009C5731EF4F95E00E4F2C3 /* ItemCellTests.swift */,
+				6009C5751EF52F4600E4F2C3 /* DetailViewControllerTests.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -193,6 +211,11 @@
 					60B49C0D1EEA974F00CD85D8 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					60B49C211EEA974F00CD85D8 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -252,6 +275,7 @@
 				603EA2F71EF112E700D9D241 /* ItemCell.swift in Sources */,
 				60B49C361EEA9C8100CD85D8 /* ToDoItem.swift in Sources */,
 				606D2ECA1EF033F9005DFB2E /* ItemListViewController.swift in Sources */,
+				6064B5371EF5470900D296D7 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +287,7 @@
 				603EA2F51EF1061E00D9D241 /* ItemListDataProviderTests.swift in Sources */,
 				60B49C3C1EED241900CD85D8 /* ItemManagerTests.swift in Sources */,
 				60B49C3A1EEBE7EE00CD85D8 /* LocationTests.swift in Sources */,
+				6009C5761EF52F4600E4F2C3 /* DetailViewControllerTests.swift in Sources */,
 				60B49C321EEA9AE500CD85D8 /* ToDoItemTests.swift in Sources */,
 				606D2EC61EF03301005DFB2E /* ItemListViewControllerTests.swift in Sources */,
 			);
