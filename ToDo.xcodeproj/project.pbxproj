@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6009C5741EF4F95E00E4F2C3 /* ItemCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6009C5731EF4F95E00E4F2C3 /* ItemCellTests.swift */; };
 		6009C5761EF52F4600E4F2C3 /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6009C5751EF52F4600E4F2C3 /* DetailViewControllerTests.swift */; };
+		6020E88A1EF81DA500F900EE /* InputViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6020E8891EF81DA500F900EE /* InputViewControllerTests.swift */; };
+		6020E88C1EF81E1100F900EE /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6020E88B1EF81E1100F900EE /* InputViewController.swift */; };
 		603EA2F31EF0FC3A00D9D241 /* ItemListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EA2F21EF0FC3A00D9D241 /* ItemListDataProvider.swift */; };
 		603EA2F51EF1061E00D9D241 /* ItemListDataProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EA2F41EF1061E00D9D241 /* ItemListDataProviderTests.swift */; };
 		603EA2F71EF112E700D9D241 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EA2F61EF112E700D9D241 /* ItemCell.swift */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		6009C5731EF4F95E00E4F2C3 /* ItemCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCellTests.swift; path = Controller/ItemCellTests.swift; sourceTree = "<group>"; };
 		6009C5751EF52F4600E4F2C3 /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewControllerTests.swift; path = Controller/DetailViewControllerTests.swift; sourceTree = "<group>"; };
+		6020E8891EF81DA500F900EE /* InputViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputViewControllerTests.swift; path = Controller/InputViewControllerTests.swift; sourceTree = "<group>"; };
+		6020E88B1EF81E1100F900EE /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputViewController.swift; path = Controller/InputViewController.swift; sourceTree = "<group>"; };
 		603EA2F21EF0FC3A00D9D241 /* ItemListDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemListDataProvider.swift; path = Controller/ItemListDataProvider.swift; sourceTree = "<group>"; };
 		603EA2F41EF1061E00D9D241 /* ItemListDataProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemListDataProviderTests.swift; path = Controller/ItemListDataProviderTests.swift; sourceTree = "<group>"; };
 		603EA2F61EF112E700D9D241 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCell.swift; path = Controller/ItemCell.swift; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 				603EA2F21EF0FC3A00D9D241 /* ItemListDataProvider.swift */,
 				603EA2F61EF112E700D9D241 /* ItemCell.swift */,
 				6064B5361EF5470900D296D7 /* DetailViewController.swift */,
+				6020E88B1EF81E1100F900EE /* InputViewController.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 				603EA2F41EF1061E00D9D241 /* ItemListDataProviderTests.swift */,
 				6009C5731EF4F95E00E4F2C3 /* ItemCellTests.swift */,
 				6009C5751EF52F4600E4F2C3 /* DetailViewControllerTests.swift */,
+				6020E8891EF81DA500F900EE /* InputViewControllerTests.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -268,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6020E88C1EF81E1100F900EE /* InputViewController.swift in Sources */,
 				60B49C3F1EED2B8500CD85D8 /* ItemManager.swift in Sources */,
 				603EA2F31EF0FC3A00D9D241 /* ItemListDataProvider.swift in Sources */,
 				60B49C121EEA974F00CD85D8 /* AppDelegate.swift in Sources */,
@@ -286,6 +293,7 @@
 				6009C5741EF4F95E00E4F2C3 /* ItemCellTests.swift in Sources */,
 				603EA2F51EF1061E00D9D241 /* ItemListDataProviderTests.swift in Sources */,
 				60B49C3C1EED241900CD85D8 /* ItemManagerTests.swift in Sources */,
+				6020E88A1EF81DA500F900EE /* InputViewControllerTests.swift in Sources */,
 				60B49C3A1EEBE7EE00CD85D8 /* LocationTests.swift in Sources */,
 				6009C5761EF52F4600E4F2C3 /* DetailViewControllerTests.swift in Sources */,
 				60B49C321EEA9AE500CD85D8 /* ToDoItemTests.swift in Sources */,
